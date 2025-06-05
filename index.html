@@ -28,6 +28,17 @@
             z-index: 1000; /* High z-index to ensure it's on top */
             text-align: center; /* Center the ad if it's smaller than the width */
         }
+
+        /* New ad container style for the highest layer ad */
+        .top-ad-container {
+            position: fixed;
+            top: 0; /* Position at the top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust for perfect centering */
+            z-index: 9999; /* Even higher z-index to be on top of everything */
+            width: 100%; /* Adjust width as needed */
+            text-align: center;
+        }
     </style>
 </head>
 <body class="bg-gray-100">
@@ -120,6 +131,19 @@
             };
         </script>
         <script type="text/javascript" src="//www.highperformanceformat.com/0f650010d72ce57d8e0178bb0ba9e0de/invoke.js"></script>
+    </div>
+
+    <div class="top-ad-container">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '0829f04c1266c3a6ec74faf3e1b4a93a',
+                'format' : 'iframe',
+                'height' : 300,
+                'width' : 160,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/0829f04c1266c3a6ec74faf3e1b4a93a/invoke.js"></script>
     </div>
 
     <script>
